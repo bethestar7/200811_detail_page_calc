@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!-- 8/11 -->
+    <section id="sub_det">
+        <div class="frame">
+            <div class="det_coffee">
+                <div class="det_img">
+                    <img src="img/ed1.JPG" alt="">
+                </div>
+            </div>
+            <div id="det_box">
+                <div class="det_info">
+                    <div class="det_tit">
+                        <h2>이디오피아 코케 허니 예가체프</h2>
+                        <p>Ethiopia Koke Honey Specialty</p>
+                    </div>
+                    <div class="det_price">
+                        <h4>판매가: <span>14,000</span>원</h4>
+                    </div>
+                    <div class="form_crush">
+                        <label for="crush">1. 분쇄 정도</label>
+                        <select name="crush" id="crush" >
+                            <option disabled> - [필수] 옵션선택 - </option>
+                            <option>원두(분쇄없음)</option>
+                            <option>프렌치프레스(1.0mm~)</option>
+                            <option>핸드드립(0.7~1.0mm)</option>
+                            <option>더치/사이폰(0.5~0.7mm)</option>
+                            <option>에스프레소(~0.5mm)</option>
+                        </select>
+                    </div>
+                    <p class="result_opt1"></p>
+
+                    <div class="form_gram">
+                        <label for="gram">2. 무게(gram)</label><!-- for는 어디로 연결할 것이다는 뜻 -->
+                        <select name="gram" id="gram" disabled>
+                            <option value="" disabled> - [필수] 옵션선택 - </option>
+                            <option value="0">200g</option>
+                            <option value="12000">500g(+12,000원)</option>
+                            <option value="23000">1000g(+23,000원)</option>
+                        </select>
+                    </div>
+                    <p class="result_opt2"></p>
+
+                    <ul class="opt_box">
+                        <!--  
+                        <li class="my_item">
+                            <div class="det_count">
+                                <div class="det_count_tit">
+                                    <p class="opt_01">원두(분쇄없음)</p>
+                                    <p class="opt_02">200g</p>
+                                </div>
+                                <div class="det_count_bx">
+                                    <a class="minus" href="#">－</a>
+                                    <input type="text" value="1" readonly>
+                                    <a class="plus" href="#">＋</a>
+                                </div>
+                                <div class="det_count_price"><span class="each_price">14,000</span>원</div>
+                                <div class="item_del"><span>×</span></div>
+                            </div>
+                        </li>
+                        -->
+                    </ul>
+
+                    <div class="det_total_price">
+                        <p class="total_price_tit">총 금액</p>
+                        <p class="total_price_num"><span>14,000</span>원</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
